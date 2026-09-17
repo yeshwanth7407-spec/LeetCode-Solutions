@@ -29,7 +29,8 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 problems = []
 
 for root, dirs, files in os.walk("."):
-    if any(part.startswith(".") for part in root.split(os.sep)) or "scripts" in root:
+    # Ignore the .git folder and scripts folder specifically
+    if "/.git" in root or root.startswith("./.git") or "scripts" in root:
         continue
 
     for file in sorted(files):

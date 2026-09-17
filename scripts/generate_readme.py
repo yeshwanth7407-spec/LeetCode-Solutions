@@ -1,8 +1,8 @@
 import os
 import re
 
-LEETCODE_PROFILE = "https://leetcode.com/u/yeshwanth7407/"
-NEETCODE_PROFILE = "https://neetcode.io/"
+LEETCODE_PROFILE = "https://leetcode.com/u/Lucky_0704"
+NEETCODE_PROFILE = "https://neetcode.io/user/MagneticObelisk925"
 
 README_TEMPLATE = """# 🎯 LeetCode & NeetCode Solutions
 

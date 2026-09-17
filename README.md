@@ -3,8 +3,8 @@
 Structured solutions, optimal approaches, and complexity analysis for technical interview preparation.
 
 ## 👤 Competitive Profiles
-- **LeetCode:** [https://leetcode.com/u/yeshwanth7407/](https://leetcode.com/u/yeshwanth7407/)
-- **NeetCode:** [https://neetcode.io/](https://neetcode.io/)
+- **LeetCode:** [https://leetcode.com/u/Lucky_0704](https://leetcode.com/u/Lucky_0704)
+- **NeetCode:** [https://neetcode.io/user/MagneticObelisk925](https://neetcode.io/user/MagneticObelisk925)
 
 ## 📊 Progress Dashboard
 - **Total Problems Solved:** 0

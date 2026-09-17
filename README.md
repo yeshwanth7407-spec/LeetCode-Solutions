@@ -12,9 +12,9 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 
 ## 📚 Problem Catalog
 
-| # | Problem | Topic | Difficulty | Solution | Date |
-|---|---------|-------|------------|----------|------|
-| - | No problems added yet | - | - | - | - |
+| # | Problem | LeetCode | NeetCode | Topic | Difficulty | Solution | Date |
+|---|---------|:--------:|:--------:|-------|------------|----------|------|
+| - | No problems added yet | - | - | - | - | - | - |
 
 ---
 *Auto-updated via [GitHub Actions](.github/workflows/update_readme.yml).*

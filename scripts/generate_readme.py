@@ -18,8 +18,8 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 
 ## 📚 Problem Catalog
 
-| # | Problem | Topic | Difficulty | Solution | Date |
-|---|---------|-------|------------|----------|------|
+| # | Problem | LeetCode | NeetCode | Topic | Difficulty | Solution | Date |
+|---|---------|:--------:|:--------:|-------|------------|----------|------|
 {rows}
 
 ---
@@ -39,23 +39,40 @@ for root, dirs, files in os.walk("."):
                 content = f.read()
 
             name = re.search(r"Problem Name\s*:\s*(.*)", content)
+            lc_id = re.search(r"LeetCode ID\s*:\s*(.*)", content)
+            nc_id = re.search(r"NeetCode ID\s*:\s*(.*)", content)
             diff = re.search(r"Difficulty\s*:\s*(.*)", content)
             topic = re.search(r"Topic\s*:\s*(.*)", content)
             date = re.search(r"Date Solved\s*:\s*(.*)", content)
 
+            p_name = name.group(1).strip() if name else file
+            p_lc = lc_id.group(1).strip() if lc_id else "-"
+            p_nc = nc_id.group(1).strip() if nc_id else "-"
+            p_diff = diff.group(1).strip() if diff else "Medium"
+            p_topic = topic.group(1).strip() if topic else "General"
+            p_date = date.group(1).strip() if date else "-"
+
+            # Format direct links if IDs are present
+            lc_cell = f"[#{p_lc}](https://leetcode.com/problems/{p_nc}/)" if p_lc != "-" else "-"
+            nc_cell = f"[{p_nc}](https://neetcode.io/problems/{p_nc})" if p_nc != "-" else "-"
+
             problems.append({
-                "name": name.group(1).strip() if name else file,
-                "diff": diff.group(1).strip() if diff else "Medium",
-                "topic": topic.group(1).strip() if topic else "General",
+                "name": p_name,
+                "lc_cell": lc_cell,
+                "nc_cell": nc_cell,
+                "topic": p_topic,
+                "diff": p_diff,
                 "link": f"[{file}]({filepath})",
-                "date": date.group(1).strip() if date else "-"
+                "date": p_date
             })
 
 table_rows = []
 unique_topics = {p["topic"] for p in problems}
 
 for idx, p in enumerate(problems, 1):
-    table_rows.append(f"| {idx} | {p['name']} | `{p['topic']}` | {p['diff']} | {p['link']} | {p['date']} |")
+    table_rows.append(
+        f"| {idx} | {p['name']} | {p['lc_cell']} | {p['nc_cell']} | `{p['topic']}` | {p['diff']} | {p['link']} | {p['date']} |"
+    )
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(README_TEMPLATE.format(
@@ -63,5 +80,5 @@ with open("README.md", "w", encoding="utf-8") as f:
         nc_link=NEETCODE_PROFILE,
         total=len(problems),
         topics_count=len(unique_topics),
-        rows="\n".join(table_rows) if table_rows else "| - | No problems added yet | - | - | - | - |"
+        rows="\n".join(table_rows) if table_rows else "| - | No problems added yet | - | - | - | - | - | - |"
     ))

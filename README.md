@@ -7,14 +7,15 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 - **NeetCode:** [https://neetcode.io/user/MagneticObelisk925](https://neetcode.io/user/MagneticObelisk925)
 
 ## 📊 Progress Dashboard
-- **Total Problems Solved:** 1
+- **Total Problems Solved:** 2
 - **Topics Covered:** 1
 
 ## 📚 Problem Catalog
 
 | # | Problem | LeetCode | NeetCode | Topic | Difficulty | Solution | Date |
 |---|---------|:--------:|:--------:|-------|------------|----------|------|
-| 1 | Two Sum | [#1](https://leetcode.com/problems/two-sum/) | [two-sum](https://neetcode.io/problems/two-sum) | `Arrays & Hashing` | Easy | [TwoSum.cpp](./01_Arrays_and_Hashing/TwoSum.cpp) | 2026-09-17 |
+| 1 | Remove Element | [#27](https://leetcode.com/problems/remove-element/) | [remove-element](https://neetcode.io/problems/remove-element) | `Arrays & Hashing` | Easy | [RemoveElement.cpp](./01_Arrays_and_Hashing/RemoveElement.cpp) | 2026-09-17 |
+| 2 | Two Sum | [#1](https://leetcode.com/problems/two-sum/) | [two-sum](https://neetcode.io/problems/two-sum) | `Arrays & Hashing` | Easy | [TwoSum.cpp](./01_Arrays_and_Hashing/TwoSum.cpp) | 2026-09-17 |
 
 ---
 *Auto-updated via [GitHub Actions](.github/workflows/update_readme.yml).*

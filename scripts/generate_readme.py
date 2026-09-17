@@ -48,11 +48,10 @@ for root, dirs, files in os.walk("."):
             p_name = name.group(1).strip() if name else file
             p_lc = lc_id.group(1).strip() if lc_id else "-"
             p_nc = nc_id.group(1).strip() if nc_id else "-"
-            p_diff = diff.group(1).strip() if diff else "Medium"
+            p_diff = diff.group(1).strip() if diff else "Easy"
             p_topic = topic.group(1).strip() if topic else "General"
             p_date = date.group(1).strip() if date else "-"
 
-            # Format direct links if IDs are present
             lc_cell = f"[#{p_lc}](https://leetcode.com/problems/{p_nc}/)" if p_lc != "-" else "-"
             nc_cell = f"[{p_nc}](https://neetcode.io/problems/{p_nc})" if p_nc != "-" else "-"
 

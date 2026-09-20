@@ -1,32 +1,36 @@
 /*
 ============================================================
-Problem Name : Symmetric Tree
-LeetCode ID  : 101
-NeetCode ID  : symmetric-tree
+Problem Name : Convert Sorted Array to Binary Search Tree
+LeetCode ID  : 108
+NeetCode ID  : convert-sorted-array-to-binary-search-tree
 Difficulty   : Easy
 Topic        : Trees
 Date Solved  : 2026-09-20
 
 Problem Statement:
-Given the root of a binary tree, check whether it is a mirror 
-of itself (i.e., symmetric around its center).
+Given an integer array nums where the elements are sorted in 
+ascending order, convert it to a height-balanced binary search tree (BST).
+A height-balanced binary tree is a binary tree in which the depth of 
+the two subtrees of every node never differs by more than one.
 
 Approach:
-Recursive dual-pointer tree mirroring check:
-- Delegate the evaluation to a helper function `check(p, q)` initialized 
-  with the root's left and right children (`check(root->left, root->right)`).
-- Base Case 1 (Both empty):
-  - If `p == nullptr && q == nullptr`, both subtrees are mirrored and empty; return true.
-- Base Case 2 (Structural or value asymmetry):
-  - If exactly one pointer is null (`p == nullptr || q == nullptr`), structure is asymmetric; return false.
-  - If values mismatch (`p->val != q->val`), values are asymmetric; return false.
-- Recursive Step (Cross-mirror validation):
-  - Check outer subtree symmetry: `check(p->left, q->right)`.
-  - Check inner subtree symmetry: `check(p->right, q->left)`.
-  - Return true only if both outer and inner pairs are symmetric (`&&`).
+Divide-and-Conquer / Recursive Binary Search Construction:
+- To guarantee height-balance, pick the middle element of the current subarray 
+  as the root node. This ensures the left and right subtrees have equal or 
+  near-equal (differing by at most 1) numbers of nodes.
+- Helper function `BST(v, start, end)`:
+  - Base Case 1: If `start > end`, no elements exist; return `nullptr`.
+  - Base Case 2: If `start == end`, a single element exists; return `new TreeNode(v[start])`.
+  - Recursive Step:
+    - Compute middle index: `mid = start + (end - start) / 2`.
+    - Create a new node with `v[mid]` as the current subtree root.
+    - Recursively construct the left subtree from `start` to `mid - 1`.
+    - Recursively construct the right subtree from `mid + 1` to `end`.
+    - Attach the resulting child subtrees and return `root`.
+- In `sortedArrayToBST`, initiate recursion over the full range: `0` to `nums.size() - 1`.
 
-Time Complexity  : O(N) where N is the total number of nodes (each node visited once)
-Space Complexity : O(H) auxiliary recursion stack space, where H is the height of the tree (O(N) worst-case)
+Time Complexity  : O(N) where N is the number of elements in nums (every node is created once)
+Space Complexity : O(log N) auxiliary recursion stack space (the tree is guaranteed balanced)
 ============================================================
 */
 

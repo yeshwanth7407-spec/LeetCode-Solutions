@@ -31,14 +31,15 @@ Space Complexity : O(N) auxiliary space used by the hash map
 ============================================================
 */
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+#include<unordered_map>
+using namespace std;
+
+ struct ListNode {
+     int val;
+     ListNode *next;
+     ListNode(int x) : val(x), next(NULL) {}
+ };
+ 
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {

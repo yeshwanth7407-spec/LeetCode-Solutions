@@ -7,7 +7,7 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 - **NeetCode:** [https://neetcode.io/user/MagneticObelisk925](https://neetcode.io/user/MagneticObelisk925)
 
 ## 📊 Progress Dashboard
-- **Total Problems Solved:** 56
+- **Total Problems Solved:** 57
 - **Topics Covered:** 18
 
 ## 📚 Problem Catalog
@@ -62,14 +62,15 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 | 46 | Container With Most Water | [#11](https://leetcode.com/problems/container-with-most-water/) | [container-with-most-water](https://neetcode.io/problems/container-with-most-water) | `Two Pointers` | Medium | [ContainerWithMostWater.cpp](./02_TwoPointer_and_SlidingWindow/ContainerWithMostWater.cpp) | 2026-11-10 |
 | 47 | Longest Substring Without Repeating Characters | [#3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest-substring-without-repeating-characters](https://neetcode.io/problems/longest-substring-without-repeating-characters) | `Two Pointers / Sliding Window` | Medium | [LongestSubstringWithoutRepeatingCharacters.cpp](./02_TwoPointer_and_SlidingWindow/LongestSubstringWithoutRepeatingCharacters.cpp) | 2026-10-08 |
 | 48 | Merge Sorted Array | [#88](https://leetcode.com/problems/merge-sorted-array/) | [merge-sorted-array](https://neetcode.io/problems/merge-sorted-array) | `Arrays & Hashing / Two Pointers` | Easy | [MergeSortedArrays.cpp](./02_TwoPointer_and_SlidingWindow/MergeSortedArrays.cpp) | 2026-10-07 |
-| 49 | Valid Palindrome | [#125](https://leetcode.com/problems/valid-palindrome/) | [valid-palindrome](https://neetcode.io/problems/valid-palindrome) | `Two Pointers` | Easy | [ValidPalindrome.cpp](./02_TwoPointer_and_SlidingWindow/ValidPalindrome.cpp) | 2026-10-07 |
-| 50 | Add Two Numbers | [#2](https://leetcode.com/problems/add-two-numbers/) | [add-two-numbers](https://neetcode.io/problems/add-two-numbers) | `Linked List / Simulation` | Medium | [AddTwoNumbers.cpp](./03_LinkedList/AddTwoNumbers.cpp) | 2026-11-10 |
-| 51 | Linked List Cycle | [#141](https://leetcode.com/problems/linked-list-cycle/) | [linked-list-cycle](https://neetcode.io/problems/linked-list-cycle) | `Linked List` | Easy | [LinkedListCycle.cpp](./03_LinkedList/LinkedListCycle.cpp) | 2026-10-09 |
-| 52 | Linked List Cycle II | [#142](https://leetcode.com/problems/linked-list-cycle-ii/) | [linked-list-cycle-ii](https://neetcode.io/problems/linked-list-cycle-ii) | `Linked List` | Medium | [LinkedListCycleII.cpp](./03_LinkedList/LinkedListCycleII.cpp) | 2026-10-09 |
-| 53 | Search a 2D Matrix | [#74](https://leetcode.com/problems/search-a-2d-matrix/) | [search-a-2d-matrix](https://neetcode.io/problems/search-a-2d-matrix) | `Binary Search` | Medium | [SearchA2DMatrix.cpp](./05_BinarySearch/SearchA2DMatrix.cpp) | 2026-11-10 |
-| 54 | Counting Bits | [#338](https://leetcode.com/problems/counting-bits/) | [counting-bits](https://neetcode.io/problems/counting-bits) | `Bit Manipulation` | Easy | [CountingBits.cpp](./06_Bit_Manipulation/CountingBits.cpp) | 2026-10-06 |
-| 55 | Power of Four | [#342](https://leetcode.com/problems/power-of-four/) | [power-of-four](https://neetcode.io/problems/power-of-four) | `Bit Manipulation` | Easy | [PowerOfFour.cpp](./06_Bit_Manipulation/PowerOfFour.cpp) | 2026-10-06 |
-| 56 | Power of Two | [#231](https://leetcode.com/problems/power-of-two/) | [power-of-two](https://neetcode.io/problems/power-of-two) | `Bit Manipulation` | Easy | [PowerOfTwo.cpp](./06_Bit_Manipulation/PowerOfTwo.cpp) | 2026-10-06 |
+| 49 | Minimum Positive Sum Subarray | [#3364](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [minimum-positive-sum-subarray](https://neetcode.io/problems/minimum-positive-sum-subarray) | `Arrays & Hashing / Sliding Window` | Easy | [MinimumPositiveSumSubArray.cpp](./02_TwoPointer_and_SlidingWindow/MinimumPositiveSumSubArray.cpp) | 2026-11-14 |
+| 50 | Valid Palindrome | [#125](https://leetcode.com/problems/valid-palindrome/) | [valid-palindrome](https://neetcode.io/problems/valid-palindrome) | `Two Pointers` | Easy | [ValidPalindrome.cpp](./02_TwoPointer_and_SlidingWindow/ValidPalindrome.cpp) | 2026-10-07 |
+| 51 | Add Two Numbers | [#2](https://leetcode.com/problems/add-two-numbers/) | [add-two-numbers](https://neetcode.io/problems/add-two-numbers) | `Linked List / Simulation` | Medium | [AddTwoNumbers.cpp](./03_LinkedList/AddTwoNumbers.cpp) | 2026-11-10 |
+| 52 | Linked List Cycle | [#141](https://leetcode.com/problems/linked-list-cycle/) | [linked-list-cycle](https://neetcode.io/problems/linked-list-cycle) | `Linked List` | Easy | [LinkedListCycle.cpp](./03_LinkedList/LinkedListCycle.cpp) | 2026-10-09 |
+| 53 | Linked List Cycle II | [#142](https://leetcode.com/problems/linked-list-cycle-ii/) | [linked-list-cycle-ii](https://neetcode.io/problems/linked-list-cycle-ii) | `Linked List` | Medium | [LinkedListCycleII.cpp](./03_LinkedList/LinkedListCycleII.cpp) | 2026-10-09 |
+| 54 | Search a 2D Matrix | [#74](https://leetcode.com/problems/search-a-2d-matrix/) | [search-a-2d-matrix](https://neetcode.io/problems/search-a-2d-matrix) | `Binary Search` | Medium | [SearchA2DMatrix.cpp](./05_BinarySearch/SearchA2DMatrix.cpp) | 2026-11-10 |
+| 55 | Counting Bits | [#338](https://leetcode.com/problems/counting-bits/) | [counting-bits](https://neetcode.io/problems/counting-bits) | `Bit Manipulation` | Easy | [CountingBits.cpp](./06_Bit_Manipulation/CountingBits.cpp) | 2026-10-06 |
+| 56 | Power of Four | [#342](https://leetcode.com/problems/power-of-four/) | [power-of-four](https://neetcode.io/problems/power-of-four) | `Bit Manipulation` | Easy | [PowerOfFour.cpp](./06_Bit_Manipulation/PowerOfFour.cpp) | 2026-10-06 |
+| 57 | Power of Two | [#231](https://leetcode.com/problems/power-of-two/) | [power-of-two](https://neetcode.io/problems/power-of-two) | `Bit Manipulation` | Easy | [PowerOfTwo.cpp](./06_Bit_Manipulation/PowerOfTwo.cpp) | 2026-10-06 |
 
 ---
 *Auto-updated via [GitHub Actions](.github/workflows/update_readme.yml).*

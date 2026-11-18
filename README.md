@@ -7,8 +7,8 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 - **NeetCode:** [https://neetcode.io/user/MagneticObelisk925](https://neetcode.io/user/MagneticObelisk925)
 
 ## 📊 Progress Dashboard
-- **Total Problems Solved:** 59
-- **Topics Covered:** 20
+- **Total Problems Solved:** 60
+- **Topics Covered:** 21
 
 ## 📚 Problem Catalog
 
@@ -70,9 +70,10 @@ Structured solutions, optimal approaches, and complexity analysis for technical 
 | 54 | Linked List Cycle | [#141](https://leetcode.com/problems/linked-list-cycle/) | [linked-list-cycle](https://neetcode.io/problems/linked-list-cycle) | `Linked List` | Easy | [LinkedListCycle.cpp](./03_LinkedList/LinkedListCycle.cpp) | 2026-10-09 |
 | 55 | Linked List Cycle II | [#142](https://leetcode.com/problems/linked-list-cycle-ii/) | [linked-list-cycle-ii](https://neetcode.io/problems/linked-list-cycle-ii) | `Linked List` | Medium | [LinkedListCycleII.cpp](./03_LinkedList/LinkedListCycleII.cpp) | 2026-10-09 |
 | 56 | Search a 2D Matrix | [#74](https://leetcode.com/problems/search-a-2d-matrix/) | [search-a-2d-matrix](https://neetcode.io/problems/search-a-2d-matrix) | `Binary Search` | Medium | [SearchA2DMatrix.cpp](./05_BinarySearch/SearchA2DMatrix.cpp) | 2026-11-10 |
-| 57 | Counting Bits | [#338](https://leetcode.com/problems/counting-bits/) | [counting-bits](https://neetcode.io/problems/counting-bits) | `Bit Manipulation` | Easy | [CountingBits.cpp](./06_Bit_Manipulation/CountingBits.cpp) | 2026-10-06 |
-| 58 | Power of Four | [#342](https://leetcode.com/problems/power-of-four/) | [power-of-four](https://neetcode.io/problems/power-of-four) | `Bit Manipulation` | Easy | [PowerOfFour.cpp](./06_Bit_Manipulation/PowerOfFour.cpp) | 2026-10-06 |
-| 59 | Power of Two | [#231](https://leetcode.com/problems/power-of-two/) | [power-of-two](https://neetcode.io/problems/power-of-two) | `Bit Manipulation` | Easy | [PowerOfTwo.cpp](./06_Bit_Manipulation/PowerOfTwo.cpp) | 2026-10-06 |
+| 57 | Add Binary | [#67](https://leetcode.com/problems/add-binary/) | [add-binary](https://neetcode.io/problems/add-binary) | `Bit Manipulation / Strings / Math` | Easy | [AddBinary.cpp](./06_Bit_Manipulation/AddBinary.cpp) | 2026-11-18 |
+| 58 | Counting Bits | [#338](https://leetcode.com/problems/counting-bits/) | [counting-bits](https://neetcode.io/problems/counting-bits) | `Bit Manipulation` | Easy | [CountingBits.cpp](./06_Bit_Manipulation/CountingBits.cpp) | 2026-10-06 |
+| 59 | Power of Four | [#342](https://leetcode.com/problems/power-of-four/) | [power-of-four](https://neetcode.io/problems/power-of-four) | `Bit Manipulation` | Easy | [PowerOfFour.cpp](./06_Bit_Manipulation/PowerOfFour.cpp) | 2026-10-06 |
+| 60 | Power of Two | [#231](https://leetcode.com/problems/power-of-two/) | [power-of-two](https://neetcode.io/problems/power-of-two) | `Bit Manipulation` | Easy | [PowerOfTwo.cpp](./06_Bit_Manipulation/PowerOfTwo.cpp) | 2026-10-06 |
 
 ---
 *Auto-updated via [GitHub Actions](.github/workflows/update_readme.yml).*
